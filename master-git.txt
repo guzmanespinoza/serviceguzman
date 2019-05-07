@@ -1,0 +1,34 @@
+
+1.	Son restricciones de tablas para limitar el tipo de dato que puede ingresarse. Dichas restricciones pueden especificarse cuando la tabla se crea por primera vez a través de la instrucción CREATE TABLE, o luego de crear la tabla a través de la instrucción ALTER TABLE.
+Los diferentes tipos de restricción que existen son:
+•	PRIMARY KEY
+•	UNIQUE
+•	FOREIGN KEY
+•	CHECK
+•	DEFAULT
+
+
+2.	La respuesta correcta es la literal “b”, debido a que String es inmutable en Java. Una clase inmutable es simplemente una clase cuyas instancias no se pueden modificar. 
+
+Toda la información en una instancia se inicializa cuando se crea la instancia y la información no se puede modificar.
+
+String uno = “1”;
+uno = uno.replace(“1”,”2”)
+
+3.	La respuesta correcta es la literal “c” Error de ejecución, la objeto Cliente no ha sido instanciado
+
+
+4.	Definición corta: Mecanismo implícito de la JVM de gestión de memoria, libera la memoria reservada por objetos inalcanzables por el hilo principal del sistema o la aplicación.
+
+Respuesta sencilla y especifica:
+Es recomendable setear a null (cliente = null) un objeto cuando este no se necesite para que el garbage collector pueda liberarlo.
+
+5.	Select id_departemento, Max(salario) from empleado group by id_departamento
+6.	Una interfaz es una colección de métodos abstractos que indica la lógica que 
+	debe implementarse, una clase abstracta es una clase que declara la existencia
+	de métodos abtractos, pero no obliga su implementacion.
+Dicho de otra forma: una interfaz obliga a una clase a implementar todos los métodos descritos, mientras que una clase abstracta puede ser heredad sin obligar a la implementación de sus miembros.
+7.	SOAP, RESTFUL
+8.	“b” via JNDI
+9.	Message Driven bean es una clase Java escuchador de mensajes de una cola definido por la anotación: @MessageDriven, utilizado para manejar peticiones multithreading en un servidor de aplicaciones.
+10.	“a” 1-Karla
